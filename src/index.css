@@ -1183,6 +1183,10 @@ p {
     padding: 3.2rem 0 4.4rem;
   }
 
+  .hero-grid {
+    margin: 0 auto;
+  }
+
   .hero-title h1 {
     font-size: clamp(2rem, 10vw, 3rem);
   }
@@ -1209,6 +1213,14 @@ p {
 
   .nav-shell {
     grid-template-columns: auto 1fr auto;
+    /* justify-items: center; */
+  }
+
+  .nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: flex-end;
   }
 }
 
